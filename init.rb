@@ -1,3 +1,5 @@
+require File.join(File.dirname(__FILE__), 'app/helpers/custom_view_assigned_helper.rb')
+
 Redmine::Plugin.register :redmine_custom_view_assigned do
   name 'Redmine Custom View Assigned plugin'
   author 'Alexander Bocharov'

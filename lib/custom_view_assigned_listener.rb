@@ -5,7 +5,7 @@ class CustomViewAssignedListener < Redmine::Hook::Listener
     label_no_group = l(:label_no_group)
     add_entry_to_group(groups, label_no_group, User.current.id, "<< #{l(:label_me)} >>")
 
-    context[:issue].assignable_users.each do |user|
+    helpers.assignable_users(context[:issue]).each do |user|
       if user.instance_of? Group
         add_entry_to_group(groups, h(l(:label_group_plural)), user.id, user.name)
       else
@@ -35,4 +35,13 @@ class CustomViewAssignedListener < Redmine::Hook::Listener
 
     groups[group_name] << {id: entry_id, name: entry_name}
   end
+end
+
+class InitHelpers
+  include Singleton
+  include CustomViewAssignedHelper
+end
+
+def helpers
+  InitHelpers.instance
 end
