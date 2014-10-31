@@ -1,0 +1,20 @@
+<select id="issue_assigned_to_id_grouped" style="display: none;">
+  <option value=""/>
+  <% groups.keys.each do |group| %>
+      <optgroup label="<%= group %>">
+        <% groups[group].each do |user| %>
+            <option value="<%= user[:id] %>"><%= user[:name] %></option>
+        <% end %>
+      </optgroup>
+  <% end %>
+</select>
+
+<script>
+    //<![CDATA[
+    $(function () {
+        var selectedUserId = $('#issue_assigned_to_id').val();
+        $('#issue_assigned_to_id').empty().html($('#issue_assigned_to_id_grouped').html());
+        $('#issue_assigned_to_id').val(selectedUserId);
+    })
+    //]]>
+</script>

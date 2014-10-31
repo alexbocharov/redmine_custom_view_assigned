@@ -1,3 +1,0 @@
-= redmine_custom_view_assigned
-
-This plugin for Redmine adds a custom view of the field assigned
