@@ -7,7 +7,7 @@ Redmine::Plugin.register :redmine_custom_view_assigned do
   version     '0.0.1'
   url         'https://github.com/alexbocharov/redmine_custom_view_assigned'
 
-  requires_redmine :version_or_higher => '2.4.7'
+  requires_redmine :version_or_higher => '2.0.0'
 end
 
 require 'redmine'
