@@ -22,40 +22,40 @@ need to restart Redmine for the plugin to be available.
 
 Users list:
 
-<img src="https://github.com/alexbocharov/redmine_custom_view_assigned/assets/images/screenshots/users.png" alt="Users" />
+<img src="/assets/images/screenshots/users.png" alt="Users" />
 
 Groups:
 
-<img src="https://github.com/alexbocharov/redmine_custom_view_assigned/assets/images/screenshots/groups.png" alt="Groups" />
+<img src="/assets/images/screenshots/groups.png" alt="Groups" />
 
 The group **Developer**:
 
-<img src="https://github.com/alexbocharov/redmine_custom_view_assigned/assets/images/screenshots/developer.png" alt="Developer" />
+<img src="/assets/images/screenshots/developer.png" alt="Developer" />
 
 The group **Reporterv:
 
-<img src="https://github.com/alexbocharov/redmine_custom_view_assigned/assets/images/screenshots/reporter.png" alt="Reporter" />
+<img src="/assets/images/screenshots/reporter.png" alt="Reporter" />
 
 The status transitions for **Manager**:
 
-<img src="https://github.com/alexbocharov/redmine_custom_view_assigned/assets/images/screenshots/manager_workflow.png.png" alt="Manager Workflow" />
+<img src="/assets/images/screenshots/manager_workflow.png.png" alt="Manager Workflow" />
 
 The status transitions for **Developer**:
 
-<img src="https://github.com/alexbocharov/redmine_custom_view_assigned/assets/images/screenshots/developer_workflow.png" alt="Developer Workflow" />
+<img src="/assets/images/screenshots/developer_workflow.png" alt="Developer Workflow" />
 
 The status transitions for **Reporter**:
 
-<img src="https://github.com/alexbocharov/redmine_custom_view_assigned/assets/images/screenshots/reporter_workflow.png" alt="Reporter Workflow" />
+<img src="/assets/images/screenshots/reporter_workflow.png" alt="Reporter Workflow" />
 
 View assignee on a **New** status:
 
-<img src="https://github.com/alexbocharov/redmine_custom_view_assigned/assets/images/screenshots/assignee_status_new.png" alt="Assignee status New" />
+<img src="/assets/images/screenshots/assignee_status_new.png" alt="Assignee status New" />
 
 View assignee on a **In Progress** status:
 
-<img src="https://github.com/alexbocharov/redmine_custom_view_assigned/assets/images/screenshots/assignee_status_in_progress.png" alt="Assignee status In Progress" />
+<img src="/assets/images/screenshots/assignee_status_in_progress.png" alt="Assignee status In Progress" />
 
 View assignee on a **Feedback** status:
 
-<img src="https://github.com/alexbocharov/redmine_custom_view_assigned/assets/images/screenshots/assignee_status_feedback.png" alt="Assignee status Feedback" />
+<img src="/assets/images/screenshots/assignee_status_feedback.png" alt="Assignee status Feedback" />
