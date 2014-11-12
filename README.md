@@ -32,13 +32,13 @@ The group **Developer**:
 
 <img src="/assets/images/screenshots/developer.png" alt="Developer" />
 
-The group **Reporterv:
+The group **Reporter**:
 
 <img src="/assets/images/screenshots/reporter.png" alt="Reporter" />
 
 The status transitions for **Manager**:
 
-<img src="/assets/images/screenshots/manager_workflow.png.png" alt="Manager Workflow" />
+<img src="/assets/images/screenshots/manager_workflow.png" alt="Manager Workflow" />
 
 The status transitions for **Developer**:
 
