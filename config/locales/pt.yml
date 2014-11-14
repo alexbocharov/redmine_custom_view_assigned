@@ -1,3 +1,4 @@
 # Portuguese strings go here for Rails i18n
 pt:
+  label_custom_view_assigned: "Exibição personalizada atribuído"
   label_no_group: "Sem grupo"

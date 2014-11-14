@@ -1,3 +1,4 @@
 # German strings go here for Rails i18n
 de:
+  label_custom_view_assigned: "Benutzerdefinierte Ansicht zugewiesen"
   label_no_group: "Ohne Gruppe"

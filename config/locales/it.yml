@@ -1,3 +1,4 @@
 # Italian strings go here for Rails i18n
 it:
+  label_custom_view_assigned: "Visualizzazione personalizzata assegnato"
   label_no_group: "Senza gruppo"
