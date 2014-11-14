@@ -2,4 +2,7 @@
 en:
   label_custom_view_assigned: "Custom View Assigned"
   label_custom_view_assigned_filtering_users: "Allow to filter the list of users for a workflow"
-  label_no_group: "Without group"
+  label_custom_view_assigned_group_by: "Group by"
+  label_custom_view_assigned_grouping_no_group: "Without group"
+  label_custom_view_assigned_grouping_by_group: "By group"
+  label_custom_view_assigned_grouping_by_role: "By role"

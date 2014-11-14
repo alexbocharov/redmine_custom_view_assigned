@@ -3,4 +3,13 @@
     <label><%= l(:label_custom_view_assigned_filtering_users) %></label>
     <%= check_box_tag('settings[filtering_users]', true, RedmineCustomViewAssigned.filtering_users) %>
   </p>
+
+  <p>
+    <label><%= l(:label_custom_view_assigned_group_by) %></label>
+    <%= select_tag 'settings[grouping_mode]',
+                   options_for_select([[l(:label_custom_view_assigned_grouping_no_group), ''],
+                                       [l(:label_custom_view_assigned_grouping_by_group), 'groups'],
+                                       [l(:label_custom_view_assigned_grouping_by_role), 'roles']],
+                                      RedmineCustomViewAssigned.grouping_mode) %>
+  </p>
 </div>

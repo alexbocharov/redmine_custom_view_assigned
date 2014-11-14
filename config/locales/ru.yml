@@ -1,4 +1,4 @@
 # Russian strings go here for Rails i18n
 ru:
   label_custom_view_assigned: "Пользовательский вид поля 'Назначена'"
-  label_no_group: "Без группы"
+  label_custom_view_assigned_grouping_no_group: "Без группы"
