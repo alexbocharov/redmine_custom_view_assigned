@@ -1,4 +1,5 @@
 require 'redmine'
+require 'redmine_custom_view_assigned'
 require File.join(File.dirname(__FILE__), 'app/helpers/custom_view_assigned_helper.rb')
 require File.join(File.dirname(__FILE__), 'lib/custom_view_assigned/hooks/views_issues_hook.rb')
 require File.join(File.dirname(__FILE__), 'lib/custom_view_assigned/hooks/views_layouts_hook.rb')
@@ -12,7 +13,12 @@ Redmine::Plugin.register :redmine_custom_view_assigned do
 
   requires_redmine :version_or_higher => '2.0.0'
 
-  settings :partial => 'settings/general'
+  settings :default => {
+        'filtering_users' => true
+    },
+           :partial => 'settings/general'
+
+  # settings :partial => 'settings/general'
 
   menu :admin_menu,
        :redmine_custom_view_assigned,
