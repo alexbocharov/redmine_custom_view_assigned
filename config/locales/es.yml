@@ -1,4 +1,4 @@
 # Spanish strings go here for Rails i18n
 es:
   label_custom_view_assigned: "Vista personalizada asignada"
-  label_custom_view_assigned_grouping_no_group: "Sin grupo"
+  label_custom_view_assigned_no_group: "Sin grupo"

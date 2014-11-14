@@ -18,8 +18,6 @@ Redmine::Plugin.register :redmine_custom_view_assigned do
     },
            :partial => 'settings/general'
 
-  # settings :partial => 'settings/general'
-
   menu :admin_menu,
        :redmine_custom_view_assigned,
        {:controller => 'settings', :action => 'plugin', :id => 'redmine_custom_view_assigned'},

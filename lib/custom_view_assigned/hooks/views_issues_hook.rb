@@ -2,7 +2,7 @@ class ViewsIssueHook < Redmine::Hook::Listener
   def view_issues_form_details_bottom(context)
     groups = {}
 
-    label_no_group = l(:label_custom_view_assigned_grouping_no_group)
+    label_no_group = l(:label_custom_view_assigned_no_group)
     add_entry_to_group(groups, label_no_group, User.current.id, "<< #{l(:label_me)} >>")
 
     users = RedmineCustomViewAssigned.filtering_users == 'true' ? helpers.assignable_users(context[:issue]) : context[:issue].assignable_users
