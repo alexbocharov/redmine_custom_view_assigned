@@ -8,6 +8,13 @@ Redmine::Plugin.register :redmine_custom_view_assigned do
   url         'https://github.com/alexbocharov/redmine_custom_view_assigned'
 
   requires_redmine :version_or_higher => '2.0.0'
+
+  settings :partial => 'settings/general'
+
+  menu :admin_menu,
+       :redmine_custom_view_assigned,
+       {:controller => 'settings', :action => 'plugin', :id => 'redmine_custom_view_assigned'},
+       :caption => 'Custom View Assigned'
 end
 
 require 'redmine'
