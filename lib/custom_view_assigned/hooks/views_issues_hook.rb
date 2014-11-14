@@ -1,10 +1,9 @@
-class CustomViewAssignedListener < Redmine::Hook::Listener
+class ViewsIssueHook < Redmine::Hook::Listener
   def view_issues_form_details_bottom(context)
     groups = {}
 
     label_no_group = l(:label_no_group)
     add_entry_to_group(groups, label_no_group, User.current.id, "<< #{l(:label_me)} >>")
-
     helpers.assignable_users(context[:issue]).each do |user|
       if user.instance_of? Group
         add_entry_to_group(groups, h(l(:label_group_plural)), user.id, user.name)
@@ -21,10 +20,10 @@ class CustomViewAssignedListener < Redmine::Hook::Listener
 
     context[:controller].send(
         :render_to_string, {
-        :partial => 'issues/assigned_grouping',
-        :layout => false,
-        :locals => {:groups => groups}
-    })
+                             :partial => 'issues/assigned_grouping',
+                             :layout => false,
+                             :locals => {:groups => groups}
+                         })
   end
 
   private
