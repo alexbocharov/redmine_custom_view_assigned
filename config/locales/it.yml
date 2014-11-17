@@ -1,0 +1,10 @@
+# Italian strings go here for Rails i18n
+it:
+  label_custom_view_assigned: "Visualizzazione personalizzata assegnato"
+  label_custom_view_assigned_filtering_users: "Permette di filtrare l'elenco di utenti per un flusso di lavoro"
+  label_custom_view_assigned_group_by: "Raggruppa per"
+  label_custom_view_assigned_no_group: "Senza gruppo"
+  label_custom_view_assigned_grouping_no_group: "Senza raggruppamento"
+  label_custom_view_assigned_grouping_by_group: "Per gruppo"
+  label_custom_view_assigned_grouping_by_role: "Per ruolo"
+  label_custom_view_assigned_current_user: "Utente corrente"

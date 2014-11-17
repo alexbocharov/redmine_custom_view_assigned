@@ -1,3 +1,10 @@
 # English strings go here for Rails i18n
 en:
-  label_no_group: "Without group"
+  label_custom_view_assigned: "Custom View Assigned"
+  label_custom_view_assigned_filtering_users: "Allow to filter the list of users for a workflow"
+  label_custom_view_assigned_group_by: "Group by"
+  label_custom_view_assigned_no_group: "Without group"
+  label_custom_view_assigned_grouping_no_group: "Without grouping"
+  label_custom_view_assigned_grouping_by_group: "By group"
+  label_custom_view_assigned_grouping_by_role: "By role"
+  label_custom_view_assigned_current_user: "Current user"

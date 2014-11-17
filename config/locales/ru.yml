@@ -1,3 +1,10 @@
 # Russian strings go here for Rails i18n
 ru:
-  label_no_group: "Без группы"
+  label_custom_view_assigned: "Пользовательский вид поля 'Назначена'"
+  label_custom_view_assigned_filtering_users: "Разрешить фильтровать пользователей с учетом настроек последовательности действий"
+  label_custom_view_assigned_group_by: "Группировать по"
+  label_custom_view_assigned_no_group: "Без группы"
+  label_custom_view_assigned_grouping_no_group: "Без группировки"
+  label_custom_view_assigned_grouping_by_group: "По группе"
+  label_custom_view_assigned_grouping_by_role: "По роли"
+  label_custom_view_assigned_current_user: "Текущий пользователь"
