@@ -1,3 +1,10 @@
 # Spanish strings go here for Rails i18n
 es:
-  label_no_group: "Sin grupo"
+  label_custom_view_assigned: "Vista personalizada asignada"
+  label_custom_view_assigned_filtering_users: "Permite filtrar la lista de usuarios para un flujo de trabajo"
+  label_custom_view_assigned_group_by: "Agrupar por"
+  label_custom_view_assigned_no_group: "Sin grupo"
+  label_custom_view_assigned_grouping_no_group: "Sin agrupar"
+  label_custom_view_assigned_grouping_by_group: "Por grupo"
+  label_custom_view_assigned_grouping_by_role: "Por papel"
+  label_custom_view_assigned_current_user: "Usuario actual"

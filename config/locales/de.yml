@@ -1,3 +1,10 @@
 # German strings go here for Rails i18n
 de:
-  label_no_group: "Ohne Gruppe"
+  label_custom_view_assigned: "Benutzerdefinierte Ansicht zugewiesen"
+  label_custom_view_assigned_filtering_users: "Lassen Sie die Liste der Benutzer für einen Workflow auswählen"
+  label_custom_view_assigned_group_by: "Gruppiere nach"
+  label_custom_view_assigned_no_group: "Ohne Gruppe"
+  label_custom_view_assigned_grouping_no_group: "Ohne Gruppierung"
+  label_custom_view_assigned_grouping_by_group: "Durch Gruppe"
+  label_custom_view_assigned_grouping_by_role: "Durch Rolle"
+  label_custom_view_assigned_current_user: "Aktueller Benutzer"
