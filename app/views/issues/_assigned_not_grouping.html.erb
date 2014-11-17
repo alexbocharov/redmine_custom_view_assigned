@@ -1,0 +1,17 @@
+<select id="issue_assigned_to_id_not_grouped" style="display: none;">
+  <option value=""/>
+  <option value="<%= User.current.id %>"><< <%= l(:label_me) %> >></option>
+  <% users.each do |user| %>
+      <option value="<%= user.id %>"><%= user.name %></option>
+  <% end %>
+</select>
+
+<script>
+    //<![CDATA[
+    $(function () {
+        var selectedUserId = $('#issue_assigned_to_id').val();
+        $('#issue_assigned_to_id').empty().html($('#issue_assigned_to_id_not_grouped').html());
+        $('#issue_assigned_to_id').val(selectedUserId);
+    })
+    //]]>
+</script>
