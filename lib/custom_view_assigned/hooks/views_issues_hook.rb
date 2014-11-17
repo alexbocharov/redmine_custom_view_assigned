@@ -41,14 +41,15 @@ class ViewsIssueHook < Redmine::Hook::Listener
   def grouping_by_group(users)
     groups = {}
 
-    add_entry_to_group(groups, l(:label_custom_view_assigned_current_user), User.current.id, "<< #{l(:label_me)} >>")
+    label_no_group = l(:label_custom_view_assigned_no_group)
+    add_entry_to_group(groups, label_no_group, User.current.id, "<< #{l(:label_me)} >>")
 
     users.each do |user|
       if user.instance_of? Group
         add_entry_to_group(groups, h(l(:label_group_plural)), user.id, user.name)
       else
         if user.groups.empty?
-          add_entry_to_group(groups, l(:label_custom_view_assigned_no_group), user.id, user.name)
+          add_entry_to_group(groups, label_no_group, user.id, user.name)
         end
 
         user.groups.each do |user_group|

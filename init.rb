@@ -14,7 +14,8 @@ Redmine::Plugin.register :redmine_custom_view_assigned do
   requires_redmine :version_or_higher => '2.0.0'
 
   settings :default => {
-        'filtering_users' => true
+        'filtering_users' => true,
+        'grouping_mode' => 'grouping'
     },
            :partial => 'settings/general'
 
