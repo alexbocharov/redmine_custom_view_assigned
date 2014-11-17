@@ -21,7 +21,7 @@ need to restart Redmine for the plugin to be available.
 
 ## Changelog
 
-v1.0.0 
+### v1.0.0
 * Added possibility to configure the plugin.
 * Grouping users by roles, groups or groups without.
 * Added a filter to the list of users for a workflow.
