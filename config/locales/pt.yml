@@ -1,4 +1,10 @@
 # Portuguese strings go here for Rails i18n
 pt:
   label_custom_view_assigned: "Exibição personalizada atribuído"
+  label_custom_view_assigned_filtering_users: "Permitir para filtrar a lista de usuários para um fluxo de trabalho"
+  label_custom_view_assigned_group_by: "Agrupar por"
   label_custom_view_assigned_no_group: "Sem grupo"
+  label_custom_view_assigned_grouping_no_group: "Sem agrupamento"
+  label_custom_view_assigned_grouping_by_group: "Por grupo"
+  label_custom_view_assigned_grouping_by_role: "Por papel"
+  label_custom_view_assigned_current_user: "Usuário atual"
