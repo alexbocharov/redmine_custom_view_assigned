@@ -21,6 +21,9 @@ need to restart Redmine for the plugin to be available.
 
 ## Changelog
 
+### v1.0.1
+* Fixed bug with presetting mode group.
+
 ### v1.0.0
 * Added possibility to configure the plugin.
 * Grouping users by roles, groups or groups without.
