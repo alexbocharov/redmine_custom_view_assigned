@@ -15,7 +15,7 @@ Redmine::Plugin.register :redmine_custom_view_assigned do
 
   settings :default => {
         'filtering_users' => true,
-        'grouping_mode' => 'grouping'
+        'grouping_mode' => 'groups'
     },
            :partial => 'settings/general'
 
