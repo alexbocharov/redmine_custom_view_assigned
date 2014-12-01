@@ -21,6 +21,9 @@ need to restart Redmine for the plugin to be available.
 
 ## Changelog
 
+### v1.0.2
+* Fix bug with admin page not displayed.
+
 ### v1.0.1
 * Fixed bug with presetting mode group.
 
