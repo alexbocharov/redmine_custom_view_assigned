@@ -1,0 +1,10 @@
+# TUrkish strings go here for Rails i18n
+tr:
+  label_custom_view_assigned: "Atanan Özel Görüntü"
+  label_custom_view_assigned_filtering_users: "Kullanıcı listesini işakışına göre filtrele"
+  label_custom_view_assigned_group_by: "Şuna göre birleştir"
+  label_custom_view_assigned_no_group: "Birleştirme yok"
+  label_custom_view_assigned_grouping_no_group: "Gurup yok"
+  label_custom_view_assigned_grouping_by_group: "Guruba göre"
+  label_custom_view_assigned_grouping_by_role: "Role göre"
+  label_custom_view_assigned_current_user: "Şimdiki kullanıcı"
