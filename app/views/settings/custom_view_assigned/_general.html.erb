@@ -12,4 +12,9 @@
                                        [l(:label_custom_view_assigned_grouping_by_role), 'roles']],
                                       RedmineCustomViewAssigned.grouping_mode) %>
   </p>
+  <p>
+    <label><%= l(:label_custom_view_assigned_unique_users) %></label>
+  
+    <%= check_box_tag('settings[unique_users]', true, RedmineCustomViewAssigned.unique_users) %>
+  </p>
 </div>
