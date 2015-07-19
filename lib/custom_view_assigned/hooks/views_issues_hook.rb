@@ -17,7 +17,7 @@ class ViewsIssueHook < Redmine::Hook::Listener
             :render_to_string, {
                                  :partial => 'issues/assigned_grouping',
                                  :layout => false,
-                                 :locals => {:groups => grouping_by_role(users)}
+                                 :locals => {:groups => grouping_by_role(users,context[:issue])}
                              })
       else
         context[:controller].send(
@@ -61,14 +61,16 @@ class ViewsIssueHook < Redmine::Hook::Listener
     groups
   end
 
-  def grouping_by_role(users)
+  def grouping_by_role(users,issue)
     groups = {}
-
+    current_project = Project.find(issue.project_id)
     add_entry_to_group(groups, l(:label_custom_view_assigned_current_user), User.current.id, "<< #{l(:label_me)} >>")
 
-    users.each do |user|
-      user.projects_by_role.each do |role, _|
-        add_entry_to_group(groups, role, user.id, user.name)
+    Role.order(:position).each do |role|
+      users.each do |user|
+        if user.roles_for_project(current_project).include? role
+          add_entry_to_group(groups, role, user.id, user.name)
+        end
       end
     end
 
