@@ -21,6 +21,9 @@ need to restart Redmine for the plugin to be available.
 
 ## Changelog
 
+### v1.0.3
+* Added sorting of groups.
+
 ### v1.0.2
 * Fix bug with admin page not displayed.
 
