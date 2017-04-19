@@ -1,0 +1,10 @@
+# Simplified Chinese strings go here for Rails i18n
+zh:
+  label_custom_view_assigned: "自定义指派给视图"
+  label_custom_view_assigned_filtering_users: "支持在工作流中过滤用户"
+  label_custom_view_assigned_group_by: "按分组"
+  label_custom_view_assigned_no_group: "不按分组"
+  label_custom_view_assigned_grouping_no_group: "不含分组"
+  label_custom_view_assigned_grouping_by_group: "按分组"
+  label_custom_view_assigned_grouping_by_role: "按角色"
+  label_custom_view_assigned_current_user: "当前用户"
