@@ -8,10 +8,10 @@ Redmine::Plugin.register :redmine_custom_view_assigned do
   name        'Redmine Custom View Assigned plugin'
   author      'Alexander Bocharov'
   description 'This plugin for Redmine adds a custom view of the field assigned'
-  version     '1.0.5'
+  version     '1.1.0'
   url         'http://alexbocharov.github.io/redmine_custom_view_assigned'
 
-  requires_redmine :version_or_higher => '2.0.0'
+  requires_redmine :version_or_higher => '3.4'
 
   settings :default => {
         'filtering_users' => true,
