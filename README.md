@@ -21,6 +21,10 @@ need to restart Redmine for the plugin to be available.
 
 ## Changelog
 
+### v1.0.5
+* Fixed versions
+* Support for previous versions of Redmine.
+
 ### v1.0.4
 * Added Simplified Chinese translation.
 
