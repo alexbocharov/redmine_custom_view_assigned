@@ -21,6 +21,9 @@ need to restart Redmine for the plugin to be available.
 
 ## Changelog
 
+### v1.1.0
+* For Redmine 3.4 or higher.
+
 ### v1.0.5
 * Fixed versions
 * Support for previous versions of Redmine.
