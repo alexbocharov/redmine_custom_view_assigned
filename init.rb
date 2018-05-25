@@ -22,5 +22,6 @@ Redmine::Plugin.register :redmine_custom_view_assigned do
   menu :admin_menu,
        :redmine_custom_view_assigned,
        {:controller => 'settings', :action => 'plugin', :id => 'redmine_custom_view_assigned'},
-       :caption => :label_custom_view_assigned
+       :caption => :label_custom_view_assigned,
+       :html => {:class => 'icon'}
 end
