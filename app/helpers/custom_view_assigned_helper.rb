@@ -10,7 +10,8 @@ module CustomViewAssignedHelper
     types = ['User']
     types << 'Group' if Setting.issue_group_assignment?
 
-    users = current_project.member_principals.select { |m| types.include?(m.principal.type) &&
+    scope = current_project.memberships.active
+    users = scope.select { |m| types.include?(m.principal.type) &&
         m.roles.detect(&:assignable) && target_members.include?(m.principal.id) }.map(&:principal).sort
 
     author = User.find(issue.author_id)

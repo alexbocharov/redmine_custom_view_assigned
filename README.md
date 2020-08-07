@@ -1,7 +1,7 @@
 # Redmine Custom View Assigned plugin
 
 This plugin for Redmine adds a custom view of the field assigned.
-More [project site] (http://alexbocharov.github.io/redmine_custom_view_assigned/)
+More [project site](http://alexbocharov.github.io/redmine_custom_view_assigned/)
 
 ## Installation
 
@@ -20,6 +20,9 @@ need to restart Redmine for the plugin to be available.
     Restart Redmine
 
 ## Changelog
+
+### v1.2.0
+* For Redmine 4.0 or higher.
 
 ### v1.1.0
 * For Redmine 3.4 or higher.
